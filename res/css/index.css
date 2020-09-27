@@ -130,7 +130,7 @@ datetext {
     width: 2.5rem;
     height: 10%;
 
-    background-color: #3a74b1;
+    background-color: #1d69b9;
     border-radius: 10rem;
 }
 
@@ -138,4 +138,12 @@ datetext {
     filter: invert(100%);
     width: 25px;
     height: 25px;
+}
+
+.post + .post {
+    background-color: #b5b5bb;
+}
+
+.post_header ~ .like_button {
+    background-color: burlywood;
 }
