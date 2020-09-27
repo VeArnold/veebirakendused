@@ -5,14 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="res/css/style.css">
     <link rel="stylesheet" href="res/css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet"> 
     <title>Login</title>
 </head>
 <body>
     <div class="login-box">
-        <h2>Welcome to postIt!</h2>
-        <h3>Create an Account</h3>
-        <p>Or</p>
-        <h1>Please Log In</h1>
+        <div class="left">
+            <div class="sticky_picture_div">
+                <img class="sticky_picture" src="res/images/sticky.jpg">
+            </div>        
+        </div>
+        <div class="middle">
+            <div class="login-text">
+                <p class="text-welcome">Welcome to postIt!</p>
+                <p class="text-create">Create an Account</p>
+                <p class="text-or">Or</p>
+                <p class="text-welcome">Please Log In</p>    
+            </div>
+            <div class="form">
+                <form action="index.html">
+                    <input class="field" placeholder="Email" type="text" id="email" name="email" value="Email"><br>
+                    <input class="field" placeholder="Password" type="text" id="password" name="password" value="Password"><br><br>
+                    <input class="button" id="login-button" type="submit" value="Log In"> <!--Use an ID selector-->
+                </form>
+                <p class="text-forgot">Forgot password?</p>
+
+            </div>
+        </div>
     </div>
 </body>
 </html>
