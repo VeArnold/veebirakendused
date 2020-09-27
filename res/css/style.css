@@ -1,5 +1,7 @@
 html, body {
     margin: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
     padding: 0;
     background-color: #3a74b1;
     height: 100%;
@@ -10,5 +12,5 @@ html, body {
     color: white;
 }
 .button:hover {
-    background-color: #e70aa5;
+    background-color: #023964;
 }
