@@ -1,54 +1,48 @@
 header {
     background-color: white;
     position: fixed;
-    top: 0;
     z-index: 1;
     width: 100%;
     height: 5%;
 }
 
 header > div.search-container {
-    width: 40%;
+    width: 48%;
     margin: auto;
 }
 
 div.search-container > input {
     box-sizing: border-box;
     height: 30px;
-    width: 80%;
+    width: 85%;
     border: 1px solid #e0e0e0;
 }
 
 div.search-container > button {
     box-sizing: border-box;
     height: 30px;
-    width: 20%;
+    width: 15%;
     border: 1px solid #e0e0e0;
     cursor: pointer;
     background-color: #2160a3;
 }
 
-header:hover {
-    box-shadow: 0 -20px 30px #4d4d4d;
-}
-
-button {
-    background-color: rgb(9, 68, 157);
-    color: white;
+.content {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin: auto;
 }
 
 .flex-container {
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    width: 75%;
-    margin: 0 auto auto;
-    height: 125%;
 }
 
 .flex-container > div {
     background-color: #f1f1f1;
-    width: 52%;
+    width: 80%;
     margin: auto;
     margin-top: 2%;
     margin-bottom: 2%;
